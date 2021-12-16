@@ -45,7 +45,6 @@
 
 #ifdef TINYTIFF_USE_WINAPI_FOR_FILEIO
 #  include <windows.h>
-#  warning COMPILING TinyTIFFWriter with WinAPI
 #endif // TINYTIFF_USE_WINAPI_FOR_FILEIO
 
 

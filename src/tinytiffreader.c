@@ -52,7 +52,6 @@
 
 #ifdef TINYTIFF_USE_WINAPI_FOR_FILEIO
 #  include <windows.h>
-#  warning COMPILING TinyTIFFReader with WinAPI
 #  define TinyTIFFReader_POSTYPE DWORD
 #else
 #  define TinyTIFFReader_POSTYPE fpos_t
